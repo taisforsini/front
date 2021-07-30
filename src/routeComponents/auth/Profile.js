@@ -36,13 +36,18 @@ function Profile() {
         <h1 className="pt-4">Perfil</h1>
         <hr />
         <div className="row d-flex justify-content-sm-start align-items-center">
-          <img
+          {/* <img
             className="imagemProfile"
             src={state.image}
             alt="Sua foto de perfil"
-          />
+          /> */}
 
-          <div className="d-flex flex-column bd-highlight mb-3 mt-5">
+          <div className="d-flex flex-column bd-highlight mb-3 ">
+            <img
+              className="imagemProfile mb-2"
+              src={state.image}
+              alt="Sua foto de perfil"
+            />
             <p>
               <strong>Nome: </strong>
               {state.name}

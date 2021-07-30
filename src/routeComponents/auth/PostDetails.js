@@ -165,10 +165,8 @@ function PostDetails(props) {
                     return (
                       <>
                         <div>
-
-
                           <img
-                            src={state.profilePicture}
+                            src={state.commentUserPhoto}
                             className=" mb-2 imagemProfile"
                             alt="profile pic"
                             style={{ maxWidth: "50px" }}
