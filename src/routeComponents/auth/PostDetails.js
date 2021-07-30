@@ -61,7 +61,7 @@ function PostDetails(props) {
             profilePicture: postResponse.data.userId.image,
             commentUserName: postResponse.data.comments[0].userId.name,
             commentUserLastName: postResponse.data.comments[0].userId.lastName,
-            commentUserPhoto: postResponse.data.comments[1].userId.image,
+            commentUserPhoto: postResponse.data.comments[0].userId.image,
           });
         } else {
           setState({
@@ -166,7 +166,7 @@ function PostDetails(props) {
                       <>
                         <div>
                           <img
-                            src={state.profilePicture}
+                            src={state.commentUserPhoto}
                             className=" mb-2 imagemProfile"
                             alt="profile pic"
                             style={{ maxWidth: "50px" }}
