@@ -26,5 +26,6 @@
   <p>Confira o app <a href="https://trippers-ironhack.netlify.app/"> aqui!</a></p>
  <h2>
    Back-end
+ </h2>
   <p>Link do <a href="https://github.com/taisforsini/trippers-server"> repositório</a>. </p>
-  </h2>
+  
