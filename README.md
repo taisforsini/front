@@ -24,4 +24,7 @@
 <p>
   Entre agora no app e faça seu próprio perfil e publicações!
   <a href="https://trippers-ironhack.netlify.app/">Confira o app aqui!</a>
-  <p> Link do repositório do<a href="https://github.com/taisforsini/trippers-server"> Back-end</a> </p>
+ <h2>
+   Back-end
+  <p> Link do <a href="https://github.com/taisforsini/trippers-server"> repositório</a>. </p>
+  </h2>
